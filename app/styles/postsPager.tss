@@ -1,0 +1,12 @@
+"Window": {
+	title: "Post",
+	//theme: "Theme.CustomMaterialTheme.TranslucentActionBar"
+},
+"ActionBar": {
+	title: "",
+	displayHomeAsUp: true
+	
+},
+"ScrollableView": {
+	showPagingControl: false
+}

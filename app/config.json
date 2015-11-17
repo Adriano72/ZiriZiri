@@ -1,0 +1,24 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "com.mattmcfarland.fontawesome": "1.4.1",
+        "nl.fokkezb.drawer": "1.1.0",
+        "zz.commons.lists": "1.0",
+        "zz.core.posts": "1.0",
+        "zz.finance": "1.0",
+        "zz.files": "1.0",
+        "zz.events": "1.0",
+        "zz.notes": "1.0",
+        "zz.commons.containers": "1.0",
+        "zz.commons.pickers": "1.0",
+        "zz.commons.textFields": "1.0",
+        "zz.core.categories": "1.0"
+    }
+}

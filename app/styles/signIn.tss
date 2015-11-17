@@ -1,0 +1,28 @@
+".container": {
+	title: "",
+	theme: "Theme.CustomMaterialTheme.NoActionBar"
+},
+".formView": {
+	layout: "vertical",
+	top: "30%"
+},
+".usernameTextField": {
+	width: "70%",
+	color: "black",
+	hintText: "username"	
+},
+".passwordTextField": {	
+	width: "70%",
+	color: "black",
+	hintText: "password",
+	passwordMask: true
+},
+".rememberMeButton": {
+	left: "0dp",
+	width: Titanium.UI.SIZE
+},
+".loginButton": {
+	right: "0dp",
+	width: Titanium.UI.SIZE,
+	title: "Login"
+}

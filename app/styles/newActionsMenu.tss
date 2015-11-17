@@ -1,0 +1,25 @@
+".container": {	
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	backgroundColor: "white"
+},
+".headerView": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	left: "8dp"	
+},
+".headerLabel": {
+	top: "8dp",
+	left: "8dp",
+	text: "Insert", //"\uf26b"
+    color: "gray",
+    /*font: {
+    	//fontSize: "18dp",
+        fontFamily: "MaterialDesignIconicFont",
+    }*/
+},
+".headerCancelAction": {
+	top: "8dp",
+	right: "8dp",
+	title: "Cancel" 
+}

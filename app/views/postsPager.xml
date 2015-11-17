@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<ActionBar id="actionBar" onHomeIconItemSelected="onHomeIconItemSelected" />
+        <ScrollableView id="scrollableView">
+        </ScrollableView>
+    </Window>       
+</Alloy>
