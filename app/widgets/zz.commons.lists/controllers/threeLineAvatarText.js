@@ -53,7 +53,12 @@ function doFilter(collection) {
 }
 
 function onItemClick(event) { 
+	
+	Ti.API.info("INDEX ITEM CLICKED: "+event.itemIndex);
+	
 	var model = collection.at(event.itemIndex);
+	
+	Ti.API.info("MODEL JSON: "+JSON.stringify(model));	
     
     $.trigger("itemSelected", model.toJSON());	
 }

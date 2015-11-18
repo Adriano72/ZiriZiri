@@ -54,9 +54,6 @@
     </mobileweb>
     <modules>
         <module platform="commonjs">ti.cloud</module>
-        <module platform="android">dk.napp.drawer</module>
-        <module platform="iphone">dk.napp.drawer</module>
-        <module platform="android">com.tripvi.drawerlayout</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>

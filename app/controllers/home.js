@@ -55,7 +55,9 @@ $.widget.on("itemSelected", function(args) {
 		postsPager.open();
 	}
  
- 	postsPager.addEventListener("itemSelected", function(item){ 	
+ 	postsPager.addEventListener("itemSelected", function(item){ 
+ 		
+ 		// SCROLLA LA TIMELINE AL VARIARE DELLO SCROLl DEI POST in POST PAGER
  		
  		/*
  		var index = collection.indexOf( collection.get(item.id) );

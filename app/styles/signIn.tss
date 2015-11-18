@@ -1,24 +1,36 @@
 ".container": {
 	title: "",
+	backgroundColor: "#728F9C",
 	theme: "Theme.CustomMaterialTheme.NoActionBar"
 },
 ".formView": {
+	
 	layout: "vertical",
-	top: "30%"
+	top: "25%"
 },
+".splashLogo":{
+	image: "/images/logoSplash.png",
+	top: 0,
+	width: 140
+}
 ".usernameTextField": {
+	top: 40,
 	width: "70%",
 	color: "black",
+	backgroundColor: "transparent",
 	hintText: "username"	
 },
 ".passwordTextField": {	
 	width: "70%",
+	
 	color: "black",
+	backgroundColor: "transparent",
 	hintText: "password",
 	passwordMask: true
 },
 ".rememberMeButton": {
-	left: "0dp",
+	left: 0,
+
 	width: Titanium.UI.SIZE
 },
 ".loginButton": {
