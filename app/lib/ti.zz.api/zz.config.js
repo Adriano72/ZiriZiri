@@ -15,8 +15,9 @@ var zz = {
 			baseURL : "http://172.30.103.11:10010/zz/api/v02",
 			cdnURL : "http://172.30.103.11:10011/zz/api/v02/cdn",			
 			*/
-			baseURL : "https://beta.ziriziri.com/zz/api/v02",
-			cdnURL : "https://beta.ziriziri.com/zz/api/v02/cdn",			
+			//baseURL : "https://beta.ziriziri.com/zz/api/v02",
+			baseURL : "https://apis.ziriziri.com/v02",			
+			cdnURL : "https://apis.ziriziri.com/v02",			
 			cached : true,
 			maxPerPage : 10
 			
